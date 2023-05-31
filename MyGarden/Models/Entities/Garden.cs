@@ -11,14 +11,14 @@ namespace MyGarden.API.Models.Entities
         [Key]
         public Guid Id { get; set; }
 
-        public string Title { get; set; }
+        public string Title { get; set; } = null!;
 
-        public string Address { get; set; }
+        public string Address { get; set; } = null!;
 
         public bool IsPublic { get; set; }
 
         public bool IsDisabled { get; set; }
 
-        public List<GardenAccess> GardenAccess { get; set; }
+        public List<GardenAccess> GardenAccess { get; set; } = null!;
     }
 }

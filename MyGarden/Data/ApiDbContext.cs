@@ -12,7 +12,7 @@ namespace MyGarden.Data
         }
 
 
-        private void ApiDbContext_SavingChanges(object sender, SavingChangesEventArgs e)
+        private void ApiDbContext_SavingChanges(object? sender, SavingChangesEventArgs e)
         {
             UpdateCreatedChanged();
         }

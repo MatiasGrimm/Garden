@@ -2,10 +2,10 @@
 {
     public class SiteOptions
     {
-        public string FrontEndUrl { get; set; }
+        public string FrontEndUrl { get; set; } = null!;
 
-        public string[] AdminEmailAdresses { get; set; }
+        public string[] AdminEmailAdresses { get; set; } = null!;
 
-        public string ContactEmailAddress { get; set; }
+        public string ContactEmailAddress { get; set; } = null!;
     }
 }

@@ -10,6 +10,6 @@ namespace MyGarden.API.Models.Entities
 
         public Guid PlantID { get; set; }
 
-        public string Notes { get; set; }
+        public string Notes { get; set; } = null!;
     }
 }
